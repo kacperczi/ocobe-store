@@ -1,0 +1,233 @@
+<style type="text/css">@import url(https://shared1.ad-lister.co.uk/Files/e02f2b73-fdc1-42d9-a1f8-e22a2195ce48/StoreBuilder/fonts/font-awesome.css?v=4.7.0);
+@import url(https://shared1.ad-lister.co.uk/Files/e02f2b73-fdc1-42d9-a1f8-e22a2195ce48/StaticBuilder/templates/computer-green-dark-blue/computer-green-dark-blue.css); 
+@import url(https://shared1.ad-lister.co.uk/Files/e02f2b73-fdc1-42d9-a1f8-e22a2195ce48/StaticBuilder/listings.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body {margin:0 !important; display:block; padding:0;}
+#sidebar {display:block;}
+#wrapper .inside {width:100%;}
+#wrapper {color:#333333; background-color:; background-image:none; background-repeat:repeat; background-size:auto; background-position:0}
+#footer {/*width:960px;*/ margin:0 auto;}
+#footer.wide {width:100%;}
+.block.wide .content {margin:0 auto; width:960px;}
+#page {background-color:;}
+#page h2 {color:undefined;}
+#page h3 {color:undefined;}
+#header {background-color:#ffffff; width:960px; background-image: none;}
+#header h1.logo a span {color:#000000;}
+#header h1.logo a:hover span {color:;}
+#menu {background-color:#55B2A8; margin:0 auto; width:960px;}
+#menu ul.navigation {margin:0 auto; display:block;}
+#menu.wide {width:100%;}
+#menu ul li[data-nav="categories"] label,
+#menu ul li label,
+#menu ul li a {background-color:#55B2A8; color:#ffffff}
+#menu ul li[data-nav="categories"]:hover label,
+#menu ul li:hover > label,
+#menu ul li:hover > a {background-color:#3A2A4B}
+#menu ul ul {background-color:#3A2A4B;}
+#page {padding:10px}
+#categories ul li a {color:; background:; border-color: #cccccc}
+#categories ul li a:hover {color:; background:;}
+#tab0:checked ~ .tabNames label[for=tab0],
+#tab1:checked ~ .tabNames label[for=tab1],
+#tab2:checked ~ .tabNames label[for=tab2],
+#tab3:checked ~ .tabNames label[for=tab3],
+#tab4:checked ~ .tabNames label[for=tab4],
+#tab5:checked ~ .tabNames label[for=tab5] {background:#f7f7f7; color:#000000;}
+#tabs .tabNames label {color:#ffffff; background-color:#55B2A8; border-bottom-color:#ffffff; border-right-color:#ffffff}
+#tabs .tabNames label:hover {color:#000000; background-color:#f7f7f7}
+#tabs section {color: ; background-color:#f7f7f7;}
+#tabs .content {border-color:#ffffff}
+#slideshow {width:960px;}
+#slideshow > .arrows label {box-shadow:inset 2px -2px 0 1px #000000}
+#slideshow > .arrows label:hover {box-shadow:inset 3px -3px 0 2px #55B2A8}
+#slideshow > .navigation label:after {background:#55B2A8}
+#slideshow > .navigation label {background:#3A2A4B}
+#slideshow ul {background:#ffffff;}
+#slideshow ul {height:320px}
+#slideshow ul li {height:100%}
+#slideshow ul li img {width:100%; position:absolute; left:0; right:0; top:0; bottom:0; margin:auto;}
+@media screen and (max-width: 1040px){
+#slideshow > .arrows {padding:0; left:0; z-index:1;}
+#slideshow > .arrows label,
+#slideshow > .arrows label:hover {margin:0 15px}
+}
+@media screen and (max-width: 960px){
+#footer,
+#footer .inside,
+#header,
+#header .inside,
+.block.wide .content,
+#wrapper > .inside {width: 100% !important}
+.show-menu {background:#55B2A8; display:none; color: ;}
+.show-menu {display:block;}
+.show-menu:before {border-top: 4px solid ; border-bottom: 4px solid ; border-top: 4px solid ;}
+.show-menu:after {background: ;}
+#menu {display:none}
+#menu ul li {float:none; width:100%; display:block;}
+#menu ul li a {width:100%; display:block; padding:0 10px; display:block; line-height:40px; height:auto; text-align:left;}
+#menu.wide ul.navigation {width:100%;}
+#menu ul li[data-nav="categories"]:after {border-color: #ffffff transparent transparent transparent;}
+#slideshow > .arrows label:before {display:none}
+#slideshow ul,
+#slideshow ul li {height:auto !important}
+#slideshow ul li img {position:relative}
+#page h1.title span {font-size:18px;}
+}
+#footer {background:#ffffff; color:#000000;}
+#footer a {color: !important;}
+/*CustomCSS*/
+  #footbox {margin: 0% 0 1% 2%}
+</style>
+<div class="main-listing" id="wrapper">
+<div class="template-header wide" id="header">
+<div class="inside">
+<div class="topArea right">/*prawy gorny rog*/</div>
+
+<h1 class="logo left"><a href="https://stores.ebay.com/" style="font-family: Raleway; font-size: 50px; font-weight: normal;" target="_blank"><img class="mCS_img_loaded hide" src="https://via.placeholder.com/300x100?text=Logo" /><span>LOGO</span></a></h1>
+</div>
+</div>
+
+<div class="inside ui-sortable wide left" id="page"><label class="show-menu" for="show-menu">Menu</label> <input id="show-menu" role="button" type="checkbox" />
+<div class="wide" id="menu" style="font-family: Raleway; font-size: 16px; font-weight: normal;">
+<ul class="navigation">
+	<li><a href="https://www.ebay.com/str/" target="_blank">Homepage</a></li>
+</ul>
+</div>
+
+<div class="infinity inside" id="slideshow"><input checked="checked" id="slides_0" name="slides" type="radio" />
+<ul style="height:undefinedpx">
+	<li><img alt="" class="mCS_img_loaded" src="https://shared1.ad-lister.co.uk/Files/e02f2b73-fdc1-42d9-a1f8-e22a2195ce48/StaticBuilder/templates/computer-green-dark-blue/banner-headset.jpg" /></li>
+</ul>
+
+<div class="arrows">&nbsp;</div>
+
+<div class="navigation">
+<div>&nbsp;</div>
+</div>
+</div>
+
+<div class="column ui-sortable" id="sidebar">
+<div class="block">
+<h1 class="title" style="padding:15px 10px;"><span>CATEGORIES</span></h1>
+
+<div class="block" data-widget="categories">
+<div class="content" id="categories">
+<ul>
+	<li data-id="19371073010"><a href="https://www.ebay.co.uk/str/5stardealsuk97/_i.html?_fsub=19371073010" target="_blank">Autocare &amp; Accessories</a></li>
+	<li data-id="19371073010"><a href="https://www.ebay.co.uk/str/5stardealsuk97/_i.html?_fsub=19371073010" target="_blank">Electronics</a></li>
+	<li data-id="19371073010"><a href="https://www.ebay.co.uk/str/5stardealsuk97/_i.html?_fsub=19371073010" target="_blank">Garden</a></li>
+	<li data-id="19371073010"><a href="https://www.ebay.co.uk/str/5stardealsuk97/_i.html?_fsub=19371073010" target="_blank">Gifts &amp; Gadgets</a></li>
+	<li data-id="19371073010"><a href="https://www.ebay.co.uk/str/5stardealsuk97/_i.html?_fsub=19371073010" target="_blank">Health &amp; Beauty</a></li>
+	<li data-id="19371073010"><a href="https://www.ebay.co.uk/str/5stardealsuk97/_i.html?_fsub=19371073010" target="_blank">Homeware</a></li>
+	<li data-id="19371073010"><a href="https://www.ebay.co.uk/str/5stardealsuk97/_i.html?_fsub=19371073010" target="_blank">Sports &amp; Leisure</a></li>
+	<li data-id="19371073010"><a href="https://www.ebay.co.uk/str/5stardealsuk97/_i.html?_fsub=19371073010" target="_blank">Other</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="block">
+<h1 class="title" style="padding:15px 10px;"><span>BEST SELLERS</span></h1>
+
+<div class="block" data-widget="tag">
+<div class="content" id="latest-products">[[LATEST_PRODUCTS_4]]</div>
+</div>
+</div>
+</div>
+
+<div class="column ui-sortable" id="container">
+<div class="block">
+<h1 class="title" style="padding:15px 10px;"><span>[[TITLE]]</span></h1>
+</div>
+
+<div class="top-image-buttons">
+<div class="the-gallery">
+<div class="block" id="gallery">[[GALLERY2]]</div>
+
+<div class="clear">&nbsp;</div>
+</div>
+
+<div class="the-prices">
+<div class="block rrp-price" data-widget="text" style="color:#000000; font-size:16px; font-family: Raleway;">
+<div>WAS: <strong>[[PRICERRP]]</strong></div>
+</div>
+
+<div class="block our-price" data-widget="text" style="color:#C1003F; font-size:16px; font-family: Raleway;">
+<div>NOW ONLY: <strong>[[PRICEBIN]]</strong></div>
+</div>
+</div>
+</div>
+
+<div class="block" style=" margin:0;">
+<h1 class="title" style="padding:15px 10px; margin:0;"><span>DESCRIPTION</span></h1>
+</div>
+
+<div class="block footerB02" data-widget="custom-html" style="color:#333333; background: #f7f7f7;padding:20px 10px;">[[DESCRIPTION]]</div>
+
+<div class="block the-tabs">
+<div class="tabs tabs3" data-widget="tabs" id="tabs">
+<div class="content">
+<div class="box"><input checked="checked" id="tab0" name="tabs" type="radio" />
+<div class="tabNames"><label for="tab0">Payment</label> <label for="tab1">Delivery</label> <label for="tab2">Returns Policy</label></div>
+
+<section data-widget="text" id="content0">[[PAYMENT]]</section>
+</div>
+
+<div class="box"><input id="tab1" name="tabs" type="radio" />
+<div class="tabNames"><label for="tab0">Payment</label> <label for="tab1">Delivery</label> <label for="tab2">Returns Policy</label></div>
+
+<section data-widget="text" id="content1">[[DELIVERY]]</section>
+</div>
+
+<div class="box"><input id="tab2" name="tabs" type="radio" />
+<div class="tabNames"><label for="tab0">Payment</label> <label for="tab1">Delivery</label> <label for="tab2">Returns Policy</label></div>
+
+<section data-widget="text" id="content2">[[RETURNS]]</section>
+</div>
+</div>
+</div>
+</div>
+
+<div class="block" style=" margin:0;">
+<h1 class="title" style="padding:15px 10px; margin:0"><span>RELATED ITEMS</span></h1>
+</div>
+
+<div class="block" data-widget="tag">
+<div class="products content grey-holder" id="related-items">[[SIMILAR_ITEMS_6]]</div>
+</div>
+
+<div class="block" style=" margin:0;">
+<h1 class="title" style="padding:15px 10px; margin:0"><span>ITEM SPECIFICS</span></h1>
+</div>
+
+<div class="block" data-widget="tag" style="color:#333333; background: #f7f7f7;padding:20px 10px;">[[ITEM_SPECIFICS]]</div>
+
+<div class="block">
+<h1 class="title" style="padding:15px 10px;"><span>WHAT OUR CUSTOMERS ARE SAYING ABOUT US</span></h1>
+
+<div class="block" data-widget="tag" id="feedback">
+<div class="grey-holder">[[TOP_5_FEEDBACK]]</div>
+</div>
+</div>
+
+<div id="footer" style="">
+<div class="inside">
+<div class="layout footboxes">
+<div class="footbox block">
+<h1 class="title" style="padding:15px 10px;"><span>ABOUT US</span></h1>
+
+<div class="block" data-widget="custom-html" style="color:#333333; background: #f7f7f7; min-height:120px;padding:10px;">[[ABOUT_US]]</div>
+</div>
+
+<div class="footbox block">
+<h1 class="title" style="padding:15px 10px;"><span>CONTACT US</span></h1>
+
+<div class="block" data-widget="custom-html" style="color:#333333; background: #f7f7f7; min-height:120px;padding:10px;">[[CONTACT_US]]</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
